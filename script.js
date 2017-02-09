@@ -1,10 +1,7 @@
 $(document).ready(function(){
 
-
-
 	var scrollheight = document.body.scrollHeight // height of entire document
 	var windowheight = window.innerHeight // height of browser window
-
 
 	function parallaxbubbles(){
 	  var scrolltop = $(window).scrollTop();
@@ -19,18 +16,5 @@ $(document).ready(function(){
 	$(window).scroll(function(e){ 
 	  parallaxbubbles();
 	});
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });
